@@ -1,0 +1,16 @@
+{
+  "name": "kaio-store-bot",
+  "version": "1.0.0",
+  "description": "Bot de avaliações e embeds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.7",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
